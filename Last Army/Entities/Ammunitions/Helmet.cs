@@ -1,0 +1,14 @@
+﻿using Last_Army.Entities.Ammunitions;
+
+namespace Last_Army
+{
+    public class Helmet:Ammunition
+    {
+       // public const double Weight = 2.3;
+
+        public Helmet(string name) 
+            : base (name, weight:2.3)
+        {
+        }
+    }
+}
